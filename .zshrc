@@ -21,7 +21,7 @@ source /opt/ros/hydro/setup.zsh
 alias emacs="emacs -nw"
 
 # Hide fancy stuff from prompt
-# export PROMPT="%{$fg_bold[green]%}%{$fg[cyan]%}%c %{$fg_bold[blue]%}%{$reset_color%}"
+export PROMPT="%{$fg_bold[green]%}%{$fg[cyan]%}%c %{$fg_bold[blue]%}%{$reset_color%}"
 
 # Dircolors (for dark terminal)
 eval `dircolors ~/.dircolors/dircolors.ansi-dark`
